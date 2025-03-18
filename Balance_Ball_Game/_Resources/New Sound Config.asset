@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e181dbc8410af0c44add13d7049a3134, type: 3}
+  m_Name: New Sound Config
+  m_EditorClassIdentifier: 
+  _uiButtonClick: {fileID: 8300000, guid: 6a6f4b43befda6b48a8ccb26c4329eb6, type: 3}
+  _comboExplosion: {fileID: 8300000, guid: b4896c80aca472d46b541879d0a07c76, type: 3}
+  _gameOverSound: {fileID: 8300000, guid: e344014543d31a24b89d5643b254c36b, type: 3}
+  _ostSound: {fileID: 8300000, guid: 1c3346478add2bb45bba4c6703a8df1e, type: 3}
+  _minusScore: {fileID: 8300000, guid: 3be1c0925293ca148a53154029d79785, type: 3}
+  _pendulumClick: {fileID: 8300000, guid: bbf6fee1e64f9fd47a1edca7b919e86c, type: 3}

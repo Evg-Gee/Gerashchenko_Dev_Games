@@ -1423,10 +1423,10 @@ RectTransform:
   - {fileID: 1215491302}
   m_Father: {fileID: 1409998914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.125, y: 0.46586236}
-  m_AnchorMax: {x: 0.43663526, y: 0.535}
-  m_AnchoredPosition: {x: -3.500061, y: -1}
-  m_SizeDelta: {x: -5, y: 4}
+  m_AnchorMin: {x: 0.18735299, y: 0.4454591}
+  m_AnchorMax: {x: 0.36650994, y: 0.559}
+  m_AnchoredPosition: {x: 1.9998779, y: -3}
+  m_SizeDelta: {x: -1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1203843488
 MonoBehaviour:
@@ -1606,13 +1606,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.7
-  m_fontSizeBase: 55.7
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 17
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1642,7 +1642,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 22.025223, y: 13.765774, z: 21.631912, w: 19.6654}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1706,10 +1706,10 @@ RectTransform:
   - {fileID: 2118047511}
   m_Father: {fileID: 1409998914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.56200004, y: 0.46586236}
-  m_AnchorMax: {x: 0.86600006, y: 0.535}
-  m_AnchoredPosition: {x: -3, y: -1}
-  m_SizeDelta: {x: 2, y: 4}
+  m_AnchorMin: {x: 0.62111795, y: 0.4454591}
+  m_AnchorMax: {x: 0.80435306, y: 0.559}
+  m_AnchoredPosition: {x: 0, y: -3}
+  m_SizeDelta: {x: -8, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266345647
 MonoBehaviour:
@@ -2516,8 +2516,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.284, y: 0.896}
   m_AnchorMax: {x: 0.72553635, y: 0.95800006}
-  m_AnchoredPosition: {x: -3.5, y: 11.5}
-  m_SizeDelta: {x: -3.5133972, y: -85}
+  m_AnchoredPosition: {x: -3.5, y: 0}
+  m_SizeDelta: {x: -3.513, y: -0.000038147}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1866207247
 CanvasRenderer:
@@ -2611,7 +2611,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 2.3402252, y: -29.25496, z: -3.5165024, w: -41.81912}
+  m_margin: {x: 2.3402252, y: 0.49430838, z: -3.5165024, w: 1.5651817}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2992,7 +2992,7 @@ GameObject:
   - component: {fileID: 2118047513}
   - component: {fileID: 2118047512}
   m_Layer: 5
-  m_Name: Restart_Button_Text
+  m_Name: Menu_Button_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

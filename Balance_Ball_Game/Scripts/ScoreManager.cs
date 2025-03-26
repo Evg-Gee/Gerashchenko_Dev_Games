@@ -14,7 +14,6 @@ public class ScoreManager : IScoreManager
         { Color.cyan, 30 }
     };
     
-
     public void AddScore(Color color)
     {
         if (scoreMap.TryGetValue(color, out int value))
@@ -33,4 +32,8 @@ public class ScoreManager : IScoreManager
     
 
     public int GetCurrentScore() => score;
+    public void SetScore(int loadScore) 
+    { 
+        score = loadScore; 
+    }
 }

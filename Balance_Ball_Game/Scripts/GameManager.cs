@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -17,12 +18,14 @@ public class GameManager : MonoBehaviour
     {
         scoreManager = new ScoreManager();
         gameState.Initialize(scoreManager);
+        SaveManager.instance.SetScoreManager(scoreManager);
     }
     void Start()
     {
         InitializePendulum();
         uiManager.Initialize(_audioManager);
         _audioManager.PlayOSTSound();
+        uiManager.UpdateScore(scoreManager.GetCurrentScore());
     }
     
     private void OnEnable()
@@ -72,9 +75,10 @@ public class GameManager : MonoBehaviour
 
     private void HandleGameOver()
     {
+        SaveManager.instance.SaveGame();
         _audioManager.PlayGameOver();
         uiManager.ShowGameOverScreen(scoreManager.GetCurrentScore());
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
     }
     private void InitializePendulum()
     {
@@ -85,7 +89,7 @@ public class GameManager : MonoBehaviour
     {       
         foreach (var zone in zones)
         {
-            int circleCount = Random.Range(1, 3); // 1 или 2 круга
+            int circleCount = UnityEngine.Random.Range(1, 3); // 1 или 2 круга
             for (int i = 0; i < circleCount; i++)
             {
                 GameObject circle = circleFactory.CreateCircle();

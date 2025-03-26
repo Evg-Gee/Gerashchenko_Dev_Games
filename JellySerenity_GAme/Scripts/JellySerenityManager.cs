@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-    public class JellySerenity : MonoBehaviour
+    public class JellySerenityManager : MonoBehaviour
     {
         [SerializeField] private GameObject jellyPinckPrefab; 
         [SerializeField] private GameObject jellyBluePrefab; 

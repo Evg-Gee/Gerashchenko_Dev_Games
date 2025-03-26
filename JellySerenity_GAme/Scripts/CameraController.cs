@@ -4,16 +4,16 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 	[SerializeField] private Camera mainCamera;
-	[SerializeField] private Vector3 defaultPosition = new Vector3(40f, 60f, -14f);
-	[SerializeField] private Quaternion defaultRotation = Quaternion.Euler(60f, 0f, 0f);
+	[SerializeField] private Vector3 defaultPosition = new Vector3(-5.4f, 35.8f, -56f);
+	[SerializeField] private Quaternion defaultRotation = Quaternion.Euler(30.4f, 17.95f, 0f);
 
-	[SerializeField] private float zoomDuration = 1.5f;
-	[SerializeField] private float zoomDistance = 30f;
-	[SerializeField] private float returnDuration = 1.2f;
-	[SerializeField] private float rotationSpeed = 90f;
-	[SerializeField] private float rotationCount = 2f;
-	[SerializeField] private float tiltAngle = 3.7f;
-	
+	[SerializeField] private float zoomDuration = 0.75f;
+	[SerializeField] private float zoomDistance = 32f;
+	[SerializeField] private float returnDuration = 1.1f;
+	[SerializeField] private float rotationSpeed = 190f;
+	[SerializeField] private float rotationCount = 1f;
+	[SerializeField] private float tiltAngle = 24f;
+	private float rotationAngle = 95f;
 	private Transform target;
 	private bool isZooming = false;
 	private Vector3 fixedTargetPosition;
@@ -67,7 +67,7 @@ public class CameraController : MonoBehaviour
 
 	private IEnumerator RotateAroundTarget()
 	{
-		float totalRotation = 95f * rotationCount;
+		float totalRotation = rotationAngle * rotationCount;
 		float currentRotation = 0f;
 
 		while (currentRotation < totalRotation)

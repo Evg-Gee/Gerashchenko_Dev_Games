@@ -27,13 +27,13 @@ public class UIManager : MonoBehaviour
     public void OnRestartButton()
     {        
         HandleButtonClick();
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }    
     public void OnJellySerenityButton()
     {        
         HandleButtonClick();
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }  
     

@@ -9,9 +9,9 @@ public class TakeJellyFX : MonoBehaviour
 	private Dictionary<string, ParticleSystem> FxmaterialMap;
 	
     void Awake()
-        {
-            SetMaterialDictionarys();
-        }
+    {
+        SetMaterialDictionarys();
+    }    
 
     private void SetMaterialDictionarys()
 	{

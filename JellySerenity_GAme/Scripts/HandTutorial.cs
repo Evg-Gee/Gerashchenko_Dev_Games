@@ -5,7 +5,7 @@ public class HandTutorial : MonoBehaviour
 {
     [SerializeField] private GameObject handPrefab;
     [SerializeField] private float swipeSpeed = 2f; 
-    [SerializeField] private JellySerenity jellySystems;
+    [SerializeField] private JellySerenityManager jellySystems;
     private Animator animator;
 
     private GameObject handInstance;

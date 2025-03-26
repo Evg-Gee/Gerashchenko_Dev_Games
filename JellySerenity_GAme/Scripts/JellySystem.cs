@@ -39,7 +39,7 @@ public class JellySystem : MonoBehaviour
 	private MeshCollider meshCollider;
 	private Mesh startMeshCollider;
 
-	public bool isSelected;
+	public bool isSelected; 
 	public bool isAccepts;
 	public bool isGives;
 

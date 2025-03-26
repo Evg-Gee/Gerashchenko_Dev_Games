@@ -83,8 +83,8 @@ MonoBehaviour:
   energeFX: {fileID: 8443733457547422530}
   isStartMoveToGravity: 0
   cameraController: {fileID: 0}
-  jellyMeshRenrr: {fileID: 0}
-  materialForFilling: {fileID: 0}
+  jellyMeshRenrr: {fileID: 3795125107353220580}
+  materialForFilling: {fileID: 2100000, guid: c3f4210c7bc64bb41afff7187cada075, type: 2}
   isColorCompletelyFilled: 0
   colorBlue: {fileID: 2100000, guid: 6841752845a295d428b80c7935ea6769, type: 2}
   colorPink: {fileID: 2100000, guid: c3f4210c7bc64bb41afff7187cada075, type: 2}
